@@ -4,7 +4,7 @@ import QtQuick.Layouts
 import qs.services
 
 Text {
-    text: Qt.formatDateTime(Time.datetime, "dd/mm")
+    text: Qt.formatDateTime(Time.datetime, "dd/MM")
     color: layout.textColor
     font.pixelSize: 16
 }
